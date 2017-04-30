@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 int add(const int a, const int b)
 {
@@ -8,6 +8,16 @@ int add(const int a, const int b)
 int sub(const int a, const int b)
 {
 	return a - b;
+}
+
+float add(const float a, const float b)
+{
+	return a + b;
+}
+
+float sub(const float a, const float b)
+{
+	return a - b;	
 }
 
 int main(void)
